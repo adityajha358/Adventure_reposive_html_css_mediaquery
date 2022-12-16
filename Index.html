@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Style.css">
+    <title>ADVENTURE</title>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <h1 class="logo">NOMADIC</h1>
+        <ul class="nav-link">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>Home</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+
+        </ul>
+        <img src="images/bar.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The colorfull World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL WORLD</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Event section start here -->
+
+    <section class="event">
+        <div class="title">
+
+            <h1>Upcoming Event</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+
+            <div class="col">
+                <img src="images/card2.jpg" alt="">
+                <h4>Everest Camp Track</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nobis hic distinctio magnam quis
+                    nesciunt.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/card3.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum assumenda repudiandae.
+                    Soluta, quod quae!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- explore section -->
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, accusamus. Libero deleniti, quos
+                officia
+                officiis reprehenderit maxime tenetur voluptatum voluptatibus praesentium neque? Voluptate, rem
+                voluptatem.
+            </p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Tours section -->
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATIONS</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora natus assumenda expedita atque
+                    dignissimos inventore cumque! Assumenda, nobis? Nihil, aspernatur! Debitis et hic accusantium quod
+                    beatae sint at exercitationem autem!</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/card1.jpg">
+                    <img src="images/card2.jpg">
+                    <img src="images/card3.jpg">
+                    <img src="images/card4.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>123, Ahmedabad Lorem ipsum dolor sit amet.| Phone: 9876543210 | Email: nomadic@gmail.com</p>
+        <p>Copyright &copy Nomadic Tours</p>
+
+    </section>
+
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlink = document.querySelector('.nav-link')
+
+        menubtn.addEventListener('click', () => {
+            navlink.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
